@@ -6,7 +6,7 @@ const { head, layout, posterCard, genreRow, trailerBlock, castGrid, similarGrid,
 const app = express();
 const PORT = process.env.PORT || 8080;
 
-const SITE_URL = process.env.SITE_URL || 'https://moviedee.up.railway.app';
+const SITE_URL = process.env.SITE_URL || 'https://movie-dee.vercel.app';
 
 app.use(express.static(path.join(__dirname, 'public')));
 
